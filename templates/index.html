@@ -1,0 +1,37 @@
+{%extends 'base.html' %}
+
+{%block title %}Home{%endblock title %}
+{%block body %}
+<div class="container-fluid px-0" >
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/home1.jpg" class="d-block w-100" alt="....">
+      <div class="carousel-caption d-none d-md-block" style="color: black">
+        <h1>Tech Adda welcome You All</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/home2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="color: black">
+        <h2>Notes||Course Material||Syllabus||Video Tutorial</h2>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/home3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="color: black">
+        <h3>Every thing related to your computer course just in one click..</h3>
+      </div>
+    </div>
+  </div> 
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+{%endblock body %}

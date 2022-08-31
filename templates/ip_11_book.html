@@ -1,0 +1,31 @@
+<style>
+  h1{color:red; text-align: center;}
+  a.list-group-item {
+    color: hotpink;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+img{height: 250px;}
+</style>
+{%extends 'base.html' %}
+
+{%block title %}class 11 ip book{%endblock title %}
+
+{%block body %}
+<div class="container-fluid px-0">
+    <img src="/static/img/book.webp" class="d-block w-100" alt="book">
+</div>
+<div class="container">
+  <h1>Informatics Practices(NCERT BOOK)</h1>
+</div>
+<div class="list-group">
+    <a href="/static/books/ip_class11/chapter 1.pdf" class="list-group-item" >1. Chapter 1</a>
+    <a href="/static/books/ip_class11/chapter 2.pdf" class="list-group-item ">2. Chapter 2</a>
+    <a href="/static/books/ip_class11/chapter 3.pdf" class="list-group-item ">3. Chapter 3</a>
+    <a href="/static/books/ip_class11/chapter 4.pdf" class="list-group-item ">4. Chapter 4</a>
+    <a href="/static/books/ip_class11/chapter 5.pdf" class="list-group-item ">5. Chapter 5</a>
+    <a href="/static/books/ip_class11/chapter 6.pdf" class="list-group-item ">6. Chapter 6</a>
+    <a href="/static/books/ip_class11/chapter 7.pdf" class="list-group-item ">7. Chapter 7</a>
+    <a href="/static/books/ip_class11/chapter 8.pdf" class="list-group-item ">8. Chapter 8</a>
+  </div>
+{%endblock body %}

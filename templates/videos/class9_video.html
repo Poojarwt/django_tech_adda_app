@@ -1,0 +1,31 @@
+<style>
+  h1{color:red; text-align: center;}
+</style>
+
+{%extends 'base.html' %}
+{%load embed_video_tags %}
+
+{%block title %}class 9th videos{%endblock title %}
+
+{%block body %}
+<div class="container-fluid px-0">
+  <img src="/static/img/videos.jpg" class="d-block w-100" alt="book" height="250" >
+</div>
+<div class="container-fluid">
+  <h1 class="mb-4"> Class 9th Computer Application Videos</h1>
+  <div class="d-flex flex-wrap">
+      {% for item in videos %}
+      <div class="px-2 mb-5">
+            {%video item.url '420x240'%}
+        <div class="d-flex justify-content-start"> 
+          {{item.title}}
+        </div>
+      
+      </div> 
+      {% endfor %}
+   </div>
+</div>
+<div>
+    
+  </div>
+{%endblock body %}

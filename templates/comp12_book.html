@@ -1,0 +1,36 @@
+<style>
+  h1{color:red; text-align: center;}
+  a.list-group-item {
+    color: hotpink;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+img{height: 250px;}
+</style>
+  {%extends 'base.html' %}
+  
+  {%block title %}Comp Sci class 11 book{%endblock title %}
+  
+  {%block body %}
+  <div class="container-fluid px-0">
+      <img src="/static/img/book.webp" class="d-block w-100" alt="book">
+  </div>
+  <div class="container">
+    <h1 class="text-center">Computer Science Book</h1>
+  </div>
+  <div class="list-group my-3">
+      <a href="/static/books/compsci_class12/chapter 1(Revision of the basics of python).pdf" class="list-group-item ">1. Chapter 1</a>
+      <a href="/static/books/compsci_class12/chapter 2(Functions2).pdf" class="list-group-item ">2. Chapter 2</a>
+      <a href="/static/books/compsci_class12/chapter 3(File handling).pdf" class="list-group-item ">3. Chapter 3</a>
+      <a href="/static/books/compsci_class12/chapter 4(python libraries).pdf" class="list-group-item ">4. Chapter 4</a>
+      <a href="/static/books/compsci_class12/chapter 5(Data-structures).pdf" class="list-group-item ">5. Chapter 5</a>
+      <a href="/static/books/compsci_class12/chapter 6(Network and network types).pdf" class="list-group-item ">6. Chapter 6</a>
+      <a href="/static/books/compsci_class12/chapter 7(network protocols).pdf" class="list-group-item ">7. Chapter 7</a>
+      <a href="/static/books/compsci_class12/chapter 8(network security).pdf" class="list-group-item ">8. Chapter 8</a>
+      <a href="/static/books/compsci_class12/chapter 9(web services).pdf" class="list-group-item ">9. Chapter 9</a>
+      <a href="/static/books/compsci_class12/chapter 10(rdbms).pdf" class="list-group-item ">10. Chapter 10</a>
+      <a href="/static/books/compsci_class12/chapter 11(sql).pdf" class="list-group-item ">11. Chapter 11</a>
+      <a href="/static/books/compsci_class12/chapter 12(Interface python with sql database).pdf" class="list-group-item ">12. Chapter 12</a>
+
+    </div>
+  {%endblock body %}

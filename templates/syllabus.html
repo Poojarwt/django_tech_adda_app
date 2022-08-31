@@ -1,0 +1,29 @@
+ <style>
+  h1{color:red; text-align: center;}
+  a.list-group-item {
+    color: hotpink;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+img{height: 300px;}
+</style>
+{%extends 'base.html' %}
+
+{%block title %}Syllabus{%endblock title %}
+
+{%block body %}
+<div class="container-fluid px-0">
+    <img src="/static/img/syllabus.jpg" class="d-block w-100" alt="computer sylabus" >
+</div>
+<div class="container">
+  <h1>Computer Syllabus class 9th to class 12th</h1>
+</div>
+<div class="list-group my-3">
+    <a href="/static/syllabus/class9.pdf" class="list-group-item ">Class 9th</a>
+    <a href="/static/syllabus/class10.pdf" class="list-group-item">Class 10th</a>
+    <a href="/static/syllabus/class11(ip).pdf" class="list-group-item">class 11th(Ip)</a>
+    <a href="/static/syllabus/class11(comp_sci).pdf" class="list-group-item">Class 11th(Computer Science)</a>
+    <a href="/static/syllabus/class12(ip).pdf" class="list-group-item">class 12th(Ip)</a>
+    <a href="/static/syllabus/class12(comp_sci).pdf" class="list-group-item">Class 12th(Computer Science)</a>
+  </div>
+{%endblock body %}

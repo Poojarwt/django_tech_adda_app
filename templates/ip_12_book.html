@@ -1,0 +1,32 @@
+<style>
+  h1{color:red; text-align: center;}
+  a.list-group-item {
+    color: hotpink;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+img{height: 250px;}
+</style>
+  {%extends 'base.html' %}
+  
+  {%block title %}class 12 ip book{%endblock title %}
+  
+  {%block body %}
+  <div class="container-fluid px-0">
+      <img src="/static/img/book.webp" class="d-block w-100" alt="book">
+  </div>
+  <div class="container">
+    <h1 class="text-center">Informatics Practices(NCERT BOOK)</h1>
+  </div>
+  <div class="list-group">
+      <a href="/static/books/ip_class12/chapter 1(Python Pandas).pdf" class="list-group-item" >1. Chapter 1</a>
+      <a href="/static/books/ip_class12/chapter 2(Data Visualization).pdf" class="list-group-item ">2. Chapter 2</a>
+      <a href="/static/books/ip_class12/chapter 3(sql functions).pdf" class="list-group-item ">3. Chapter 3</a>
+      <a href="/static/books/ip_class12/chapter 4(computer network).pdf" class="list-group-item ">4. Chapter 4</a>
+      <a href="/static/books/ip_class12/chapter 5(internet and www).pdf" class="list-group-item ">5. Chapter 5</a>
+      <a href="/static/books/ip_class12/chapter 6(website concepts).pdf" class="list-group-item ">6. Chapter 6</a>
+      <a href="/static/books/ip_class12/chapter 7(web browser).pdf" class="list-group-item ">7. Chapter 7</a>
+      <a href="/static/books/ip_class12/chapter 8(societal impacts).pdf" class="list-group-item ">8. Chapter 8</a>
+      <a href="/static/books/ip_class12/chapter 9(societal impacts).pdf" class="list-group-item ">9. Chapter 9</a>
+    </div>
+  {%endblock body %}
